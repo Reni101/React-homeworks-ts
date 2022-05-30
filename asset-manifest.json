@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/React-homeworks-ts/static/css/main.a5ff3915.chunk.css",
+    "main.js": "/React-homeworks-ts/static/js/main.a2d96b8d.chunk.js",
+    "main.js.map": "/React-homeworks-ts/static/js/main.a2d96b8d.chunk.js.map",
+    "runtime-main.js": "/React-homeworks-ts/static/js/runtime-main.eb2a6a63.js",
+    "runtime-main.js.map": "/React-homeworks-ts/static/js/runtime-main.eb2a6a63.js.map",
+    "static/js/2.492eb9e5.chunk.js": "/React-homeworks-ts/static/js/2.492eb9e5.chunk.js",
+    "static/js/2.492eb9e5.chunk.js.map": "/React-homeworks-ts/static/js/2.492eb9e5.chunk.js.map",
+    "index.html": "/React-homeworks-ts/index.html",
+    "precache-manifest.4f471010af41b11e071628eed61477b1.js": "/React-homeworks-ts/precache-manifest.4f471010af41b11e071628eed61477b1.js",
+    "service-worker.js": "/React-homeworks-ts/service-worker.js",
+    "static/css/main.a5ff3915.chunk.css.map": "/React-homeworks-ts/static/css/main.a5ff3915.chunk.css.map",
+    "static/js/2.492eb9e5.chunk.js.LICENSE.txt": "/React-homeworks-ts/static/js/2.492eb9e5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eb2a6a63.js",
+    "static/js/2.492eb9e5.chunk.js",
+    "static/css/main.a5ff3915.chunk.css",
+    "static/js/main.a2d96b8d.chunk.js"
+  ]
+}

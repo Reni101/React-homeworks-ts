@@ -1,0 +1,48 @@
+.MainBox {
+    display: flex;
+    align-items: flex-end;
+    margin: 2px;
+    background-color: #ffe775;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.messageBox {
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.3);
+    min-width: 200px;
+    max-width: 300px;
+    min-height: 50px;
+    border-radius: 5px 5px 5px 0;
+}
+
+
+.name {
+    padding-left: 5px;
+    color: blueviolet;
+    font-weight:bold;
+}
+
+.message {
+    padding-left: 5px;
+    overflow-wrap: break-word;
+}
+
+.time {
+    display: flex;
+    justify-content: flex-end;
+    color: rgba(255, 255, 255, .5);
+}
+
+.ang {
+    width: 20px;
+    height: 20px;
+    background: radial-gradient(circle at 0 0, rgba(0, 0, 0, 0) 20px, rgba(0, 0, 0, 0.3) 0);
+}
+/*верстку уголка посмотрел в ответах */

@@ -1,0 +1,10 @@
+.errorMessage {
+    color: red;
+    height: 30px;
+
+}
+
+.error {
+    border: 1px solid red;
+    outline: none;
+}

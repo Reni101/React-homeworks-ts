@@ -1,0 +1,15 @@
+.blue {
+    color: black;
+    background-color: blueviolet;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testSpanError {
+    color: blue;
+
+}

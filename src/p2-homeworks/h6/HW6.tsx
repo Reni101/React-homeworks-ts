@@ -10,7 +10,14 @@ function HW6() {
         saveState<string>('editable-span-value', value)
     }
     const restore = () => {
-        // setValue()
+
+       let newValue = restoreState<string>('editable-span-value', "")
+        setValue(newValue)
+    /*    let newValue = localStorage.getItem('editable-span-value')
+        if (newValue) {
+            setValue(JSON.parse(newValue))
+        }*/
+
     }
 
     return (
@@ -30,8 +37,7 @@ function HW6() {
             <SuperButton onClick={restore}>restore</SuperButton>
 
             <hr/>
-            {/*для личного творчества, могу проверить*/}
-            {/*<AlternativeSuperEditableSpan/>*/}
+
             <hr/>
         </div>
     )

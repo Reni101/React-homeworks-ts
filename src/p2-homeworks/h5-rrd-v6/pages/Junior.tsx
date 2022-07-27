@@ -11,14 +11,14 @@ import HW11 from "../../h11/HW11";
 const Junior = () => {
     return (
         <Provider store={store}>
-        <div>
-            <HW6/>
-            <HW7/>
-            <HW8/>
-            <HW9/>
-            <HW10/>
-            <HW11/>
-        </div>
+            <div>
+                <HW6/>
+                <HW7/>
+                <HW8/>
+                <HW9/>
+                <HW10/>
+                <HW11/>
+            </div>
         </Provider>
     );
 };

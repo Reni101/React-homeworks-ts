@@ -1,7 +1,7 @@
 import React from 'react'
 import SuperButton from '../h4/common/c2-SuperButton/SuperButton'
 import {useDispatch, useSelector} from "react-redux";
-import {initStateType, loadingAC} from "./bll/loadingReducer";
+import {loadingAC} from "./bll/loadingReducer";
 import {AppStoreType} from "./bll/store";
 
 function HW10() {

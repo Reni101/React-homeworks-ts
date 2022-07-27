@@ -20,8 +20,7 @@ const SuperRange: React.FC<SuperRangePropsType> = (
     }
 ) => {
     const onChangeCallback = (e: ChangeEvent<HTMLInputElement>) => {
-        onChange && onChange(e) // сохраняем старую функциональность
-
+        onChange && onChange(e)
         onChangeRange && onChangeRange(+e.currentTarget.value)
     }
 
@@ -33,7 +32,6 @@ const SuperRange: React.FC<SuperRangePropsType> = (
                 type={'range'}
                 onChange={onChangeCallback}
                 className={finalRangeClassName}
-
                 {...restProps} // отдаём инпуту остальные пропсы если они есть (value например там внутри)
             />
         </>

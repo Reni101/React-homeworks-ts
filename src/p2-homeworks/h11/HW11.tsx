@@ -27,10 +27,7 @@ function HW11() {
                 <span>{value2}</span>
             </div>
 
-            <hr/>
-            {/*для личного творчества, могу проверить*/}
-            {/*<AlternativeSuperRange/>*/}
-            {/*<AlternativeSuperDoubleRange/>*/}
+            <hr/> 
             <hr/>
         </div>
     )

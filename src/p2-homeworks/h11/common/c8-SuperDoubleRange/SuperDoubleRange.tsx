@@ -1,24 +1,24 @@
-import React from 'react'
+import * as React from 'react';
+import Box from '@mui/material/Box';
+import Slider from '@mui/material/Slider';
 
-type SuperDoubleRangePropsType = {
-    onChangeRange?: (value: [number, number]) => void
-    value?: [number, number]
-    // min, max, step, disable, ...
-}
 
-const SuperDoubleRange: React.FC<SuperDoubleRangePropsType> = (
-    {
-        onChangeRange, value,
-        // min, max, step, disable, ...
-    }
-) => {
-    // сделать самому, можно подключать библиотеки
+export default function RangeSlider() {
+    const [value, setValue] = React.useState<number[]>([0, 100]);
+
+    const handleChange = (event: Event, newValue: number | number[]) => {
+        setValue(newValue as number[]);
+    };
 
     return (
-        <>
-            DoubleRange
-        </>
-    )
+        <Box sx={{ width: 300 }}>
+            <Slider
+                getAriaLabel={() => 'Temperature range'}
+                value={value}
+                onChange={handleChange}
+            />
+            <span>{value[0]}----</span>
+            <span>{value[1]}  </span>
+        </Box>
+    );
 }
-
-export default SuperDoubleRange

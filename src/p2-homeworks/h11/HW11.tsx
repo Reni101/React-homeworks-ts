@@ -22,9 +22,8 @@ function HW11() {
             </div>
 
             <div>
-                <span>{value1}</span>
-               {/* <SuperDoubleRange/>*/}
-                <span>{value2}</span>
+
+                 <SuperDoubleRange />
             </div>
 
             <hr/> 

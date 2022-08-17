@@ -5,6 +5,8 @@ const JuniorPlus = () => {
     return (
         <div>
             Hello it's Junior+ page
+            <hr/>
+            <hr/>
             <HW13/>
         </div>
     );
